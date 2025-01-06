@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body>
+    <header class="head-container">
+      <nav class="nav-container">
+        <img class="logo" src="/images/logo.svg" alt="" />
+        <ul class="nav-items">
+          <li>
+            <a href="#" class="feature">
+              Features
+              <span class="feature-arrow-down">
+                <img src="/images/icon-arrow-down.svg" alt="" /> </span
+            ></a>
+          </li>
+          <li>
+            <a href="#" class="Company">
+              Company
+              <span class="company-arrow-down">
+                <img src="/images/icon-arrow-down.svg" alt="" /> </span
+            ></a>
+          </li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+      <div class="open-menu-icon">
+        <img src="images/icon-menu.svg" alt="" />
+      </div>
+
+      <div class="register-container">
+        <a class="login" href="#">Login</a>
+        <a href="#" class="register">Register</a>
+      </div>
+    </header>
+    <section class="feature-dropdown">
+      <div>
+        <img src="images/icon-todo.svg" alt="" />
+        <p>Todo List</p>
+      </div>
+      <div>
+        <img src="images/icon-calendar.svg" alt="" />
+        <p>Calender</p>
+      </div>
+      <div>
+        <img src="images/icon-reminders.svg" alt="" />
+        <p>Reminders</p>
+      </div>
+      <div>
+        <img src="images/icon-planning.svg" alt="" />
+        <p>Planning</p>
+      </div>
+    </section>
+    <section class="company-dropdown">
+      <div>
+        <p>History</p>
+        <p>Our Team</p>
+        <p>Blog</p>
+      </div>
+    </section>
+    <main class="main-container">
+      <section class="remote-side-container">
+        <div>
+          <h1 class="primary-heading">Make <br />remote work</h1>
+          <p class="first-para">
+            Get your team in sync, no matter your location. <br />Streamline
+            processes, create team rituals, and <br />
+            watch productivity soar.
+          </p>
+          <button class="more-btn">Learn more</button>
+        </div>
+
+        <div class="client-info">
+          <img src="images/client-databiz.svg" alt="" />
+          <img src="images/client-audiophile.svg" alt="" />
+          <img src="images/client-meet.svg" alt="" />
+          <img src="images/client-maker.svg" alt="" />
+        </div>
+      </section>
+      <section class="client-side-container"></section>
+    </main>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.instagram.com/izen_webdev/" target="_blank"
+        >Izen WevDev</a
+      >.
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
